@@ -151,10 +151,7 @@ def main():
 
         # publish_parts() in python 2.x return dict values as Unicode type
         # in py3k Unicode is unavailable and values are of str type
-        if isinstance(html, str):
-            return html
-        else:
-            return html.encode('utf-8')
+        return html if isinstance(html, str) else html.encode('utf-8')
     return ''
 
 if __name__ == '__main__':
