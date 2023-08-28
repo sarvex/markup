@@ -9,7 +9,7 @@ gem "RedCloth"
 # however we want to bump up to this version since this has a security patch
 gem "commonmarker", git: "https://github.com/gjtorikian/commonmarker.git", tag: "v0.18.3"
 gem "rdoc", "~>6.5"
-gem "org-ruby", "= 0.9.9"
+gem "org-ruby", "0.9.12"
 gem "creole", "~>0.5.0"
 gem "wikicloth", "=0.8.3"
 gem "twitter-text", "~> 3.1"
