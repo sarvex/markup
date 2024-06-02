@@ -1,4 +1,4 @@
-FROM ubuntu:14.04.5
+FROM ubuntu:24.04
 
 RUN apt-get update -qq
 RUN apt-get install -y apt-transport-https
